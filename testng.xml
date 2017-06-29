@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Testv1">
+    <classes>
+      <class name="Accessability_Check.LaunchBrowser"/>
+      	<class name="Accessability_Check.WCAG_1_1_1"/>
+        <class name="Accessability_Check.WCAG_1_3_1"/>
+         <class name="Accessability_Check.WCAG_2_3_1"/>
+          <class name="Accessability_Check.WCAG_2_4_2"/>
+           <class name="Accessability_Check.WCAG_2_4_4"/>
+            <class name="Accessability_Check.WCAG_3_1_1"/>
+             <class name="Accessability_Check.WCAG_1_2_2"/>
+             <class name="Accessability_Check.GenerateReport"/>
+       </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
